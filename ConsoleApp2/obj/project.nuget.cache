@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CaBqtFZNp+9MrLhqgI+6N+UF9PZa0wpMYzCbcM4Y3hzeIrTwlD7oGXvS682HxwpEB4Z/3Kmywuv/JiOGzpGUAQ==",
+  "dgSpecHash": "t74T0ji9AYUTzZFcz2ay2/QmHW81SsyBWlrnsyC+c08yrd0WlCC3tm5B/1a4kwd7Vnf3XRzAn0q0TWsu5+fc/A==",
   "success": true,
-  "projectFilePath": "D:\\js\\c#\\ConsoleApp1\\ConsoleApp2\\ConsoleApp2.csproj",
+  "projectFilePath": "D:\\js\\c#\\bankomat_console\\ConsoleApp2\\ConsoleApp2.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

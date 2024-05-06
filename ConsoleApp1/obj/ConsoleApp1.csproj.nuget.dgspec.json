@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\js\\c#\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\js\\c#\\bankomat_console\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\js\\c#\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\js\\c#\\bankomat_console\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\js\\c#\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\js\\c#\\bankomat_console\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\js\\c#\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\js\\c#\\bankomat_console\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\js\\c#\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\js\\c#\\bankomat_console\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
