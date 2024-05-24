@@ -48,7 +48,9 @@ class Program
                 Console.WriteLine("1. Узнать баланс");
                 Console.WriteLine("2. Снять/Положить деньги");
                 Console.WriteLine("3. Поменять PIN-код");
-                Console.WriteLine("4. Выйти");
+                Console.WriteLine("4. Оплата мобильных услуг"); // Добавлена новая команда
+                Console.WriteLine("5. Выйти"); // Изменено число команды "Выйти"
+
 
                 if (!int.TryParse(Console.ReadLine(), out int command))
                 {
@@ -99,8 +101,12 @@ class Program
                         _account.ChangePin(newPin);
                         break;
                     case 4:
+                        // Оплата мобильных услуг
+                        _account.PayMobileServices(amount);
+                        break;
+                    case 5:
                         Console.WriteLine("Всего хорошего.");
-                        return;
+                        break;
                     default:
                         Console.WriteLine("Неверная команда.");
                         break;
@@ -109,6 +115,7 @@ class Program
         }
     }
 
+    
     private class Account
     {
         // Свойство Balance представляет текущий баланс счета
@@ -154,6 +161,11 @@ class Program
             Pin = newPin;
 
         }
+        public void PayMobileServices(int amount)
+        {
+            Deposit(amount);
+        }
+
     }
 }
   
